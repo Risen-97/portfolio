@@ -25,7 +25,7 @@ const TimeLine = () => {
             </h3>
             <p className="max-w-lg mb-10 text-sm">
               In 2021 i Finally i graduate from Arab Open University with
-              Bachelor's degree in Information Technology and Computing
+              Bachelor&#39;s degree in Information Technology and Computing
             </p>
           </div>
         </div>

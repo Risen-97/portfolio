@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="text-center lg:text-left">
           <p className="font-medium">Hi There!</p>
           <h1 className="text-5xl font-bold mb-5">
-            I'M Mohamed <span className="text-indigo-500">Fareed</span>
+            I&#39;M Mohamed <span className="text-indigo-500">Fareed</span>
           </h1>
           <p className="text-gray-500 dark:text-gray-300 leading-8 font-medium lg:max-w-lg mb-10">
             Creative Junior Front-end Developer with 2+ years of experience,
