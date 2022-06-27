@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
         <div className="w-[300px] h-[300px] lg:w-[500px] lg:h-[500px] hidden lg:block ">
           <img
-            src="/assets/Hand coding-amico.svg"
+            src="/assets/Hand-coding-amico.svg"
             alt=""
             className="w-full h-full"
           />

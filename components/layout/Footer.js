@@ -64,15 +64,24 @@ const Footer = () => {
           <p className="mb-5 md:text-center">Contact Me</p>
 
           <div className="flex items-center gap-5">
-            <a href="https://twitter.com/mofr_dev" target="_blank">
+            <a
+              href="https://twitter.com/mofr_dev"
+              target="_blank"
+              rel="noreferrer"
+            >
               <AiFillTwitterCircle className="w-7 h-7 text-gray-600 dark:text-white" />
             </a>
-            <a href="https://github.com/Risen-97" target="_blank">
+            <a
+              href="https://github.com/Risen-97"
+              target="_blank"
+              rel="noreferrer"
+            >
               <AiFillGithub className="w-7 h-7 text-gray-600 dark:text-white" />
             </a>
             <a
               href="https://www.linkedin.com/in/mohammed-fareed-2b1356205/"
               target="_blank"
+              rel="noreferrer"
             >
               <AiFillLinkedin className="w-7 h-7 text-gray-600 dark:text-white " />
             </a>

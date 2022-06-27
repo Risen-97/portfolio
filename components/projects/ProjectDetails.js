@@ -39,6 +39,7 @@ const ProjectDetails = ({ project, justify }) => {
           <a
             href={project.repo}
             target="_blank"
+            rel="noreferrer"
             className="font-medium shadow-md cursor-pointer flex items-center gap-1 py-1 lg:py-2 px-4 rounded-lg bg-zinc-900 hover:bg-zinc-700 text-white dark:bg-white dark:text-black hover:dark:bg-gray-300 transition duration-300"
           >
             Github Repo
@@ -57,6 +58,7 @@ const ProjectDetails = ({ project, justify }) => {
           <a
             href={project.website}
             target="_blank"
+            rel="noreferrer"
             className="btnColor shadow-md transition duration-300 font-medium cursor-pointer flex items-center gap-1 py-1 lg:py-2 px-6 rounded-lg text-white"
           >
             Visit
