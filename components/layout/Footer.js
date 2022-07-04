@@ -79,7 +79,7 @@ const Footer = () => {
               <AiFillGithub className="w-7 h-7 text-gray-600 dark:text-white" />
             </a>
             <a
-              href="https://www.linkedin.com/in/mohammed-fareed-2b1356205/"
+              href="https://linkedin.com/in/mohamedfareed97"
               target="_blank"
               rel="noreferrer"
             >

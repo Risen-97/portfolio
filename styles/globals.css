@@ -68,7 +68,7 @@ ul li:nth-child(5) span {
   @apply bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500 text-white;
 }
 .btn {
-  @apply btnColor hover:shadow-xl hover:-translate-y-2 px-10 py-2 capitalize rounded-full transition duration-500 font-medium;
+  @apply btnColor hover:shadow-xl hover:-translate-y-2 px-10 py-2 capitalize rounded-full transition duration-500 font-medium cursor-pointer;
 }
 
 .project-grid {

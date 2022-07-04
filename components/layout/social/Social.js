@@ -7,7 +7,7 @@ const Social = () => {
         <FiGithub className="w-5 h-5" />
       </a>
       <a
-        href="https://www.linkedin.com/in/mohammed-fareed-2b1356205/"
+        href="https://linkedin.com/in/mohamedfareed97"
         target="_blank"
         rel="noreferrer"
       >
