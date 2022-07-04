@@ -14,7 +14,7 @@ const ProjectThumbnail = (props) => {
       }`}
     >
       <div
-        className={`relative cursor-pointer xl:w-[800px] h-[466px]  rounded-md overflow-hidden group flex flex-col `}
+        className={`relative cursor-pointer xl:w-[800px] lg:h-[466px]  rounded-md overflow-hidden group flex flex-col `}
       >
         <div className="w-full h-9 bg-zinc-800 dark:bg-[#D1D1D1] flex items-center gap-2 px-2 py-1 z-10 ">
           <div className="w-3 h-3 bg-red-500 rounded-full"></div>
@@ -22,7 +22,7 @@ const ProjectThumbnail = (props) => {
           <div className="w-3 h-3 bg-green-500 rounded-full"></div>
         </div>
         <div
-          className={`group-hover:scale-110 h-[430px] transition duration-1000 ${
+          className={`group-hover:scale-110  transition duration-1000 ${
             props.justify ? "group-hover:-rotate-3" : "group-hover:rotate-3"
           }`}
         >
@@ -33,7 +33,7 @@ const ProjectThumbnail = (props) => {
             height={430}
             objectFit="cover"
             className={cn(
-              "duration-700 ease-in-out",
+              "duration-700 ease-in-out w-full h-full",
               isLoading
                 ? "scale-110 blur-2xl grayscale"
                 : "scale-100 blur-0 grayscale-0"
